@@ -1,0 +1,51 @@
+/* create profile css */
+
+body {
+    background-color: #af0e0e;
+    display: flex;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.Create-Profile-continer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.cont_form{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #251818;
+    width: 30rem;
+    height: 25rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.create_title {
+    font-size: 35px;
+    color: #af0e0e;
+}
+
+.Send_button {
+    height: 50px;
+    font-size: 20px;
+    padding: 12px 0 0px 0;
+    background-color: #af0e0e;
+    color: #f8f9fa;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
